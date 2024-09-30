@@ -1,5 +1,5 @@
 1.Introduction
-NCRF is an optimized version based on CRF++-0.58）,CRF++ uses spaces or Tab characters ("\t") as delimiters for features, However,the space character is a typical common character in text. When there is a space in the text, CRF++ may experience issues. NCRF resolved this problem.
+NCRF is an optimized version based on CRF++-0.58,CRF++ uses spaces or Tab characters ("\t") as delimiters for features, However,the space character is a typical common character in text. When there is a space in the text, CRF++ may experience issues. NCRF resolved this problem.
 NCRF uses tab ("\ t") as a delimiter for features.
 
 2.Installation
