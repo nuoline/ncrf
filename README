@@ -1,0 +1,21 @@
+1.Introduction
+NCRF is an optimized version based on CRF++-0.58）,CRF++ uses spaces or Tab characters ("\t") as delimiters for features, However,the space character is a typical common character in text. When there is a space in the text, CRF++ may experience issues. NCRF resolved this problem.
+NCRF uses tab ("\ t") as a delimiter for features.
+
+2.Installation
+Requirements
+C++ compiler (gcc 3.0 or higher)
+How to make
+% ./configure 
+% make
+% su
+# make install
+You can change default install path by using --prefix option of configure script.
+Try --help option for finding out other options.
+Please refer:https://taku910.github.io/crfpp/
+
+4.About the author
+My name is zhaizhouwei, You can contact me through email at: nuoline@qq.com
+
+5.more
+see doc/index.html
