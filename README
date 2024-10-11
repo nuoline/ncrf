@@ -6,12 +6,11 @@ NCRF uses tab ("\ t") as a delimiter for features.
 Requirements
 C++ compiler (gcc 3.0 or higher)
 How to make
-% ./configure 
+% ./configure --prefix=/your_home/ncrfpp
 % make
 % su
 # make install
-You can change default install path by using --prefix option of configure script.
-Try --help option for finding out other options.
+Replace the directory "/your_home/ncrfpp" with your own directory, and ultimately install the built ncfr in this directory
 Please refer:https://taku910.github.io/crfpp/
 
 4.About the author
